@@ -28,10 +28,10 @@ namespace BossTime
         {
             InitializeComponent();
             dataSet = new DataSet();
-            string dbHost = "sql12.freemysqlhosting.net";//資料庫位址
-            string dbUser = "sql12203535";//資料庫使用者帳號
-            string dbPass = "1qZXVLssuC";//資料庫使用者密碼
-            string dbName = "sql12203535";//資料庫名稱
+            string dbHost = "sql12..net";//資料庫位址
+            string dbUser = "";//資料庫使用者帳號
+            string dbPass = "";//資料庫使用者密碼
+            string dbName = "";//資料庫名稱
             string connStr = "server=" + dbHost + ";uid=" + dbUser + ";pwd=" + dbPass + ";database=" + dbName;
             conn = new MySqlConnection(connStr);
             cmd = conn.CreateCommand();
